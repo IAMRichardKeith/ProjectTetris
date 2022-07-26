@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 //CODE IS NOT MINE. Followed along from a Tutorial Video
-//THIS CODE DOES NOT BELONG TO ME
+//THIS CODE SOLUTION DOES NOT BELONG TO ME
 public static class Data
 {
 

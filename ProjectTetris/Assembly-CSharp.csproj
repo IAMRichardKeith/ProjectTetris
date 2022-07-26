@@ -53,9 +53,10 @@
     <UnityVersion>2020.3.25f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Tetriminos.cs" />
-    <Compile Include="Assets\Scripts\Data.cs" />
     <Compile Include="Assets\Scripts\GameBoard.cs" />
+    <Compile Include="Assets\Scripts\Data.cs" />
+    <Compile Include="Assets\Scripts\Tetriminos.cs" />
+    <Compile Include="Assets\Scripts\TetrisGamePiece.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

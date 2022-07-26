@@ -335,6 +335,7 @@ GameObject:
   - component: {fileID: 1558037859}
   - component: {fileID: 1558037858}
   - component: {fileID: 1558037860}
+  - component: {fileID: 1558037861}
   m_Layer: 0
   m_Name: GameBoard
   m_TagString: Untagged
@@ -381,6 +382,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dceeffa5cb516324bbf7e40b81131b82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPosition: {x: 0, y: 0, z: 0}
   tetrimino:
   - tetriminos: 0
     tile: {fileID: 11400000, guid: fc084e319f117c042b0950c97a695d24, type: 2}
@@ -396,6 +398,18 @@ MonoBehaviour:
     tile: {fileID: 11400000, guid: 812f4c1fca599d347a917c2d1085a658, type: 2}
   - tetriminos: 6
     tile: {fileID: 11400000, guid: 5ac0c0986ef3c1b41b6ebe1aae73dc05, type: 2}
+--- !u!114 &1558037861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558037857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e22fefdf4e53d2d408e1d50417305518, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1749492132
 GameObject:
   m_ObjectHideFlags: 0

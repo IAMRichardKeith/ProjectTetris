@@ -26,7 +26,7 @@ public struct TetriminoData
     public void Initialize()
     {
         //Access the data class and cells property. We are now looking up the cells associated with the tetromino data
-        this.cells = Data.Cells[this.tetriminos] //Assigning our cells to the tetrimino data
+        this.cells = Data.Cells[this.tetriminos]; //Assigning our cells to the tetrimino data
     }
 
 }
