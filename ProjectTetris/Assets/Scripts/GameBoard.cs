@@ -8,11 +8,7 @@ public class GameBoard : MonoBehaviour
     //We need a reference for our tilemap
     public Tilemap tilemap { get; private set; }
     public TetrisGamePiece activePiece { get; private set; } //Also have to reference to the tetris game piece class
-
     public Vector3Int spawnPosition; //We dont need to add a get and private set. Lets freely choose where we want to spawn the tetris piece.
-
-
-    //Declare an array of tetriminos
     public TetriminoData[] tetrimino;
 
     //Pulling the built in Unity function Awake. This is for method that are called when the script instance is being loaded

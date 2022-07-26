@@ -37,4 +37,25 @@ public class TetrisGamePiece : MonoBehaviour
             this.cells[i] = (Vector3Int)data.cells[i]; //Casting our cells to Vector3Int
         }
     }
+
+    private void Update()
+    {
+        //Press the arrow keys to move the tetris piece
+        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+
+        }
+
+        else if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+
+        }
+    }
+
+    private void Move(Vector2Int translation)
+    {
+        
+    }
+
 }
+
